@@ -49,7 +49,7 @@ if __name__ == "__main__":
     server.set_server_name("KUAServer")
     server.set_application_uri("urn:" + socket.gethostname() + ":KUAServer")
     endPnt = "opc.tcp://"+IPAddr+":4846"
-    print("KUA EndPoint:", endPnt)
+    print("KOPCUA EndPoint:", endPnt)
  
     server.set_endpoint(endPnt)
 
